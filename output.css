@@ -595,6 +595,11 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-dark-desaturated-cyan{
+  --tw-bg-opacity: 1;
+  background-color: hsl(167 40% 24% / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'images\/mobile\/image-graphic-design\.jpg\'\)\]{
   background-image: url('images/mobile/image-graphic-design.jpg');
 }
@@ -699,10 +704,6 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-6{
-  padding-top: 1.5rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -740,6 +741,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -748,8 +754,6 @@ video {
   text-transform: uppercase;
 }
 
-.leading-relaxed{
-  line-height: 1.625;
 .leading-relaxed{
   line-height: 1.625;
 }
