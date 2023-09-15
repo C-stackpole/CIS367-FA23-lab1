@@ -3,3 +3,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-y{
+    position: relative;
+    z-index: 1;
+}
+.btn-y::after{
+    content: '';
+    position: absolute;
+    background-color: hsl(51, 100%, 49%);
+    width: 110%;
+    height: 10px;
+    opacity: .3;
+    bottom: -3px;
+    left: -5%;
+    z-index: -1;
+    border-radius: 4px;
+    
+}
+
+.btn-r{
+    position: relative;
+    z-index: 1;
+}
+.btn-r::after{
+    content: '';
+    position: absolute;
+    background-color: hsl(7, 99%, 70%);
+    width: 110%;
+    height: 10px;
+    opacity: .3;
+    bottom: -3px;
+    left: -5%;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.cherry-orange{
+    padding-top: 30rem;
+}
+
+
+
